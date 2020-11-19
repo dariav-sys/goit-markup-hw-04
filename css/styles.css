@@ -276,36 +276,31 @@ header {
 }
 
 .team-socials {
-}
-
-.team-socials {
-	display: inline-block;
-	width: 44px;
+	display: inline-flex;
+	padding: 0;
+	margin: 0;
+	outline: 1px solid black;
+	list-style: none;
 	height: 44px;
-
-	background-color: var(--accent-color);
-	border-radius: 50%;
-	background-repeat: no-repeat;
-	background-position: center;
+	width: 206px;
+	color: transparent;
 }
 
-.team-socials:nth-child(1) {
-	background-image: url(../images/social-links/instagram\ 2.svg);
+.icon-insta {
+	background-image: url(../images/social-links/Ellipse.svg);
+	background-color: #2196f3;
 }
 
-.team-socials:nth-child(2) {
-	background-image: url(../images/social-links/twitter\ 1.svg);
+.icon-twit {
+	background-image: url(../images/social-links/Ellipse-2.svg);
 }
 
-.team-socials:nth-child(3) {
-	background-image: url(../images/social-links/facebook\ 1.svg);
-}
-.team-socials:nth-child(4) {
-	background-image: url(../images/social-links/linkedin\ 1.svg);
+.icon-fb {
+	background-image: url(../images/social-links/Ellipse-3.svg);
 }
 
-.tweeter {
-	background-image: url(../images/social-links/twitter\ 1.svg);
+.icon-ln {
+	background-image: url(../images/social-links/Ellipse-4.svg);
 }
 
 .partners-logos {
@@ -321,9 +316,9 @@ header {
 	margin-right: 30px;
 	background-position: center;
 	background-repeat: no-repeat;
-
-	/* background-color: #ffffff; */
 }
+
+/* background-color: #ffffff; */
 
 .logo-picture:last-child {
 	margin-right: 0;
@@ -356,7 +351,7 @@ header {
 .logo-picture:hover,
 .logo-picture:focus {
 	border: 1px solid var(--accent-color);
-	/* background-image: var(--accent-color); */
+	background-image: var(--accent-color);
 }
 
 .footer .text {
