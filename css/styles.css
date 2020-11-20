@@ -324,29 +324,24 @@ header {
 
 .partners-logos {
 	display: flex;
-	align-items: center;
+	justify-content: space-between;
 	justify-content: center;
 }
 
 .partner-link {
 	display: flex;
 	align-items: center;
-	padding: 0;
+	justify-content: center;
 	width: 170px;
 	height: 90px;
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
-	margin-right: 0;
 	fill: #afb1b8;
 }
 
-.partner-icon {
-	justify-content: center;
-}
-
 .logo-picture {
-	display: flex;
 	margin-right: 30px;
+	align-items: center;
 }
 
 .logo-picture:last-child {
