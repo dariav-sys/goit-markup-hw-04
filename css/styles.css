@@ -339,6 +339,12 @@ header {
 	fill: #afb1b8;
 }
 
+.partner-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .logo-picture {
 	display: flex;
 	justify-content: center;
