@@ -67,6 +67,24 @@ header {
 	margin-left: 53px;
 }
 
+.link-header-icon {
+	margin-top: 50px;
+}
+
+.header-mail-icon,
+.header-smartphone-icon {
+	fill: #757575;
+	margin-right: 10px;
+}
+
+.header-mail-icon:hover,
+.header-mail-icon:focus,
+.header-smartphone-icon:hover,
+.header-smartphone-icon:focus {
+	fill: var(--accent-color);
+	cursor: pointer;
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
 	color: var(--accent-color);
