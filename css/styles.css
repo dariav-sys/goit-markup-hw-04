@@ -324,6 +324,7 @@ header {
 }
 
 .partner-link {
+	padding: 0;
 	width: 170px;
 	height: 90px;
 	display: flex;
@@ -335,11 +336,7 @@ header {
 	background-repeat: no-repeat;
 }
 
-.logo-picture {
-	margin-right: 30px;
-}
-
-.partners-logos:last-child {
+.logo-picture:last-child {
 	margin-right: 0;
 }
 
