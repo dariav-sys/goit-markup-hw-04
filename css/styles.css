@@ -320,7 +320,7 @@ header {
 
 .partners-logos {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .partner-link {
